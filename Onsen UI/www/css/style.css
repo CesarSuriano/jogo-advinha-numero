@@ -1,13 +1,13 @@
 .inicio {
     width: 90%;
     height: 40%;
-    margin: 40px 5% 400px 5%;
+    margin: 5%;
 }
 
 .button {
     min-width: 20%;
     text-align: center;
-    margin: 5% 0;
+    margin: 2% 0;
 }
 
 .page__content {
