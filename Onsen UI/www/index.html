@@ -23,7 +23,7 @@
   <ons-template id="page1.html">
     <ons-page id="page1">
       Escolha um número entre 0 e 63 e clique em começar
-      <ons-button id="push-button">Push page</ons-button>
+      <ons-button id="btn-start">Começar</ons-button>
     </ons-page>
   </ons-template>
 
@@ -48,7 +48,8 @@
       <ons-row>
         49 51 53 55 57 59 61 63
       </ons-row>
-      <ons-button id="push-button">Push page</ons-button>
+      <ons-button onclick="click_resposta(1, 'page3')">Sim</ons-button>
+      <ons-button onclick="click_resposta(0, 'page3')">Não</ons-button>
     </ons-page>
   </ons-template>
 
@@ -76,7 +77,8 @@
       <ons-row>
         50 51 54 55 58 59 62 63
       </ons-row>
-      <ons-button id="push-button">Push page</ons-button>
+      <ons-button onclick="click_resposta(2, 'page4')">Sim</ons-button>
+      <ons-button onclick="click_resposta(0, 'page4')">Não</ons-button>
     </ons-page>
   </ons-template>
 
@@ -104,7 +106,8 @@
       <ons-row>
         52 53 54 55 60 61 62 63
       </ons-row>
-      <ons-button id="push-button">Push page</ons-button>
+      <ons-button onclick="click_resposta(4, 'page5')">Sim</ons-button>
+      <ons-button onclick="click_resposta(0, 'page5')">Não</ons-button>
     </ons-page>
   </ons-template>
 
@@ -131,7 +134,8 @@
         <ons-row>
           56 57 58 59 60 61 62 63
         </ons-row>
-        <ons-button id="push-button">Push page</ons-button>
+        <ons-button onclick="click_resposta(8, 'page6')">Sim</ons-button>
+        <ons-button onclick="click_resposta(0, 'page6')">Não</ons-button>
     </ons-page>
   </ons-template>
 
@@ -159,7 +163,8 @@
       <ons-row>
         56 57 58 59 60 61 62 63
       </ons-row>
-      <ons-button id="push-button">Push page</ons-button>
+      <ons-button onclick="click_resposta(16, 'page7')">Sim</ons-button>
+      <ons-button onclick="click_resposta(0, 'page7')">Não</ons-button>
     </ons-page>
   </ons-template>
 
@@ -187,18 +192,20 @@
       <ons-row>
         56 57 58 59 60 61 62 63
       </ons-row>
-      <ons-button id="push-button">Push page</ons-button>
+      <ons-button onclick="click_resposta(32, 'page8')">Sim</ons-button>
+      <ons-button onclick="click_resposta(0, 'page8')">Não</ons-button>
     </ons-page>
   </ons-template>
 
   <ons-template id="page8.html">
-    <ons-toolbar>
-      <div class="center">
-        Resultado
-      </div>
-    </ons-toolbar>
-    <ons-page>
-      Seu número é
+    <ons-page id="page8">
+      <ons-toolbar>
+        <div class="center">
+          Resultado
+        </div>
+      </ons-toolbar>
+
+      <h3 id="resultado"></h3>
     </ons-page>
   </ons-template>
 
