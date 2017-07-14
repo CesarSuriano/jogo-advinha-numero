@@ -10,7 +10,21 @@
     margin: 2% 0;
 }
 
+.btn-yes {
+    background-color: #009688;
+}
+
+.btn-no {
+    background-color: #F44336
+}
+
 .page__content {
     margin: 3%;
+}
+
+strong {
+    width: 100%;
+    text-align: center;
+    display: block;
 }
 

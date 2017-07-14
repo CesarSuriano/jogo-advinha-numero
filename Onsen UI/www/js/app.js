@@ -26,3 +26,7 @@ function recomecar() {
     contador = 0;
     document.querySelector('#myNavigator').pushPage('page2.html', { data: { title: 'Page 2' } });
 }
+
+function click_info() {
+    document.querySelector('#myNavigator').pushPage('page-info.html', { data: { title: '' } });
+}
