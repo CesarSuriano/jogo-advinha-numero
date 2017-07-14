@@ -131,11 +131,12 @@
       </ons-row>
       <ons-row>
         40 41 42 43 44 45 46 47
-        <ons-row>
-          56 57 58 59 60 61 62 63
-        </ons-row>
-        <ons-button onclick="click_resposta(8, 'page6')">Sim</ons-button>
-        <ons-button onclick="click_resposta(0, 'page6')">Não</ons-button>
+      </ons-row>
+      <ons-row>
+        56 57 58 59 60 61 62 63
+      </ons-row>
+      <ons-button onclick="click_resposta(8, 'page6')">Sim</ons-button>
+      <ons-button onclick="click_resposta(0, 'page6')">Não</ons-button>
     </ons-page>
   </ons-template>
 
@@ -205,7 +206,9 @@
         </div>
       </ons-toolbar>
 
-      <h3 id="resultado"></h3>
+      <h3 class="resultado">teste</h3>
+      <br>
+      <ons-button id="btn-recomecar" onclick="recomecar();">Recomeçar</ons-button>
     </ons-page>
   </ons-template>
 
