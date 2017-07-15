@@ -24,7 +24,7 @@ function click_resposta(value, page) {
 
 function recomecar() {
     contador = 0;
-    document.querySelector('#myNavigator').pushPage('page2.html', { data: { title: 'Page 2' } });
+    document.querySelector('#myNavigator').pushPage('page1.html', { data: { title: 'Page 1' } });
 }
 
 function click_info() {

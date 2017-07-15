@@ -24,8 +24,16 @@
 
   <ons-template id="page1.html">
     <ons-page id="page1">
+      <ons-toolbar>
+        <div class="center">
+          Jogo do demo
+        </div>
+        <div class="toolbar__right">
+          <i class="toolbar-button fa fa-info-circle" aria-hidden="true" onclick="click_info();"></i>
+        </div>
+      </ons-toolbar>
       <div class="inicio">
-        <h5 class="descricao"> Pense em um número entre 0 e 63 e clique em começar</h5>
+        <h5 class="descricao"> Pense em um número entre 0 e 63 e clique em começar.</h5>
         <ons-button id="btn-start">Começar</ons-button>
       </div>
     </ons-page>
@@ -35,11 +43,12 @@
   <ons-template id="page2.html">
     <ons-page id="page2">
       <ons-toolbar>
+        <div class="left">
+          <ons-back-button>Back</ons-back-button>
+        </div>
+        
         <div class="center">
           Pergunta 1
-        </div>
-        <div class="toolbar__right">
-          <i class="toolbar-button fa fa-info-circle" aria-hidden="true" onclick="click_info();"></i>
         </div>
       </ons-toolbar>
       <h2>O seu número aparece aqui?</h2>
